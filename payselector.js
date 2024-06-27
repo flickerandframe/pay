@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Note: As of my last update, Venmo does not officially support direct payment links via URL parameters for web integration.
         // You will need to replace this with your actual payment URL or mechanism.
         var fullAmount = document.getElementById('card');
-        fullAmount.href = "card.html?full=" + full + "&downpayment=" + downpayment; // Placeholder URL
+        fullAmount.href = "card?full=" + full + "&downpayment=" + downpayment; // Placeholder URL
 
     } else {
         window.location.href = 'https://flickerandframe.com'
